@@ -41,7 +41,7 @@ const conversationHistories = {};
 // Handler for '/start' command - sends a welcome message
 bot.onText(/\/start/, (msg) => {
   const welcomeMessage = `
-🚀 *Welcome to the Extraordinary NourBot Universe!* 🚀
+🚀 *Welcome to the Extraordinary TamilAi Universe!* 🚀
 
 Embark on a journey with AI at your side, ready to explore, create, and solve mysteries:
 
@@ -69,7 +69,7 @@ Adventure awaits with every command! Let’s make each day more interesting. Rea
 
 *Your journey begins now...* 🌌
 
-Crafted with 💡 by @YassineDG
+Crafted with 💡 by @Hacker_Gokul
 `;
 
   bot.sendMessage(msg.chat.id, welcomeMessage, { parse_mode: "Markdown" });
